@@ -22,13 +22,13 @@ export default defineConfig({
         icons: [
           {
             src: 'pwa-192x192.png',
-            sizes: '192x192',
+            sizes: '420x420',
             type: 'image/png',
             purpose: 'any'
           },
           {
             src: 'pwa-512x512.png',
-            sizes: '512x512',
+            sizes: '800x800',
             type: 'image/png',
             purpose: 'maskable' // Best for Android splash screens
           }
